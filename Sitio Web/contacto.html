@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gilberto Rosas Castillo | Web Developer</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<header>
+		<a href="index.html" id="logo">
+		<h1>Gilberto Rosas Castillo</h1>
+		<h2>Web Developer</h2>
+		</a>
+		<nav>
+			<ul>
+				<li><a href="index.html">Portafolio</a></li>
+				<li><a href="acerca.html">Acerca De</a></li>
+				<li><a href="contacto.html" class="selected">Contacto</a></li>		
+			</ul>
+		</nav>
+	</header>
+	<div id="wrapper">
+		<section id="primary">
+			<h3>Informacion General</h3>
+			<p>Actualmente no estoy buscando un trabajo como programador, pero estoy disponible como instructor o conferencista. Si tienes alguna pregunta no dudes en consultarme</p>
+		</section>
+		<section id="secondary">
+			<h3>Detalles de contacto</h3>
+			<ul class="contact-info">
+				<li class="phone"><a href="tel:238-394-2565">238-394-2565</a></li>
+				<li class="email"><a href="mailto:gibe1988@gmail.com">gibe1988@gmail.com</a></li>
+				<li class="twitter"><a href="https://twitter.com/intent/tweet?screen_name=@Betuzo">@Betuzo</a></li>
+			</ul>
+		</section>
+		<section>
+			<form id="contactForm" method="post" action="php/contact-form.php">
+				<div>
+					<input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required />
+				</div>
+				<div>
+					<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+				</div>
+				<div>
+					<input class="form-control" id="subject" name="subject" placeholder="Asunto" type="text" required>
+				</div>
+				<div>
+					<textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="5" required></textarea>
+				</div>
+				<div>
+					<input type="submit" class="form-send" value="Enviar">
+				</div>
+			</form>
+		</section>
+	</div>
+	<footer>
+		<a href="https://twitter.com/betuzo"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+		<a href="https://facebook.com/gilberto.rosascastillo"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+		<p>&copy; 2019 Gilberto Rosas Castillo</p>
+	</footer>
+</body>
+</html>
